@@ -1,7 +1,19 @@
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open('pwa-cache-v1').then((cache) => {
-      return cache.addAll(['/index.html']);
+      return cache.addAll([
+        '/index.html',
+        '/src/assets/bg.jpg',
+        '/src/assets/bg-2.jpg',
+        '/src/assets/bg-3.jpg',
+        '/src/assets/doc-1.png',
+        '/src/assets/patient-1.png',
+        '/src/assets/patient-2.png',
+        '/src/assets/patient-3.png',
+        '/src/assets/service-1.png',
+        '/src/assets/service-2.png',
+        '/src/assets/service-3.png',
+      ]);
     })
   );
 });
