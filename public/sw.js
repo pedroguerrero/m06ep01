@@ -13,6 +13,18 @@ self.addEventListener('install', (event) => {
         '/src/assets/service-1.png',
         '/src/assets/service-2.png',
         '/src/assets/service-3.png',
+        '/src/assets/hospital-icon.svg',
+        '/assets/bg.jpg',
+        '/assets/bg-2.jpg',
+        '/assets/bg-3.jpg',
+        '/assets/doc-1.png',
+        '/assets/patient-1.png',
+        '/assets/patient-2.png',
+        '/assets/patient-3.png',
+        '/assets/service-1.png',
+        '/assets/service-2.png',
+        '/assets/service-3.png',
+        '/assets/hospital-icon.svg',
       ]);
     })
   );
